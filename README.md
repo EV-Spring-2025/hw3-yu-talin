@@ -118,6 +118,59 @@ https://github.com/user-attachments/assets/bc0c397b-848d-4bf7-bddf-566ee34f6a34
 
 https://github.com/user-attachments/assets/3228e8b7-aa67-44ac-986a-a042bf272d0a
 
+### Bonus
+現行材料力學應該已經有 Youngs Mㄟd4a-0821-4c53-9870-379db8f2339c
+
+**4-2**
+
+https://github.com/user-attachments/assets/1ccb3c33-3ab3-4c5c-84d2-da1a69c5f15b
+
+
+
+### Sand Setting
+| Trial| n_grid | substep_dt |grid_v_damping_scale | softening |
+|:-------:|:-------:|:-------:|:-------:|:-------:|
+| Base | 150     | 10^(-4)     |0.9995      |0.1    |
+| 1    |**15**   | 10^(-4)     |0.9995      |0.1    |
+| 2-1    |150     | **10^(-3)**     |0.9995      |0.1    |
+| 2-2   |150     | **5 * 10^(-3)**     |0.9995      |0.1    |
+| 3    |150     | 10^(-4)     |**0.8**      |0.1    |
+| 4-1    |150     | 10^(-4)     |0.9995      |**0**    |
+| 4-2    |150     | 10^(-4)     |0.9995      |**0.00001**    |
+
+
+**Base**
+
+https://github.com/user-attachments/assets/41e4085d-f488-4d91-bc62-f9d93888b4b6
+
+**1**
+
+https://github.com/user-attachments/assets/2c37fcb1-5bb6-41b7-8a35-622560047d47
+
+**2-1**
+
+https://github.com/user-attachments/assets/8aaf3c75-5ab5-455c-a2e0-dae86b6ee040
+
+**2-2**
+
+https://github.com/user-attachments/assets/d6af7a97-cd19-40f6-8d2f-c44e36186dd5
+
+**3**
+
+https://github.com/user-attachments/assets/0cd567eb-58ad-4091-a4f4-0c847c45bb38
+
+**4-1**
+
+https://github.com/user-attachments/assets/bc0c397b-848d-4bf7-bddf-566ee34f6a34
+
+**4-2**
+
+https://github.com/user-attachments/assets/3228e8b7-aa67-44ac-986a-a042bf272d0a
+
+### Bonus
+現行材料力學應該已經有 Young’s Modulus、Poisson Ratio、Strength的表格資料，但這些參數並無法直接對應至 PhysGaussian 系統內部所使用的參數（如 softening、grid_v_damping_scale 等）。因此若找到現行表格資料對Part 2 MPM參數的關係，就可以利用既有表格資料來建立出模擬所需的參數，讓模型可以直接模擬不同材料，減少手動調參的需求。
+
+
 # Reference
 ```bibtex
 @inproceedings{xie2024physgaussian,
