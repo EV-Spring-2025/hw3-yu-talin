@@ -21,15 +21,33 @@ Navigate to the "PhysGaussian" directory and follow the instructions under the "
 Follow the "Quick Start" section and execute the simulation scripts as instructed. Make sure to verify your outputs and understand the role of physics constraints in the generated dynamics.
 
 
-## Part 1: Selet any 2 materials
+## Part 1: 2 materials
 ### Metal
 https://github.com/user-attachments/assets/7c0ff51a-1a56-4757-843e-948331c800bc
-
-
 ### sand
 https://github.com/user-attachments/assets/41e4085d-f488-4d91-bc62-f9d93888b4b6
 
+## Part 2: MPM Parameter Effet
+### n_grid
+| material\n_grid | 150(original) | 15 |
+|-------|-------|-------|
+| metal | https://github.com/user-attachments/assets/7c0ff51a-1a56-4757-843e-948331c800bc | https://github.com/user-attachments/assets/0df5b33d-dd26-43f6-8f2f-113c8a7dd0ca |
+| sand  | https://github.com/user-attachments/assets/41e4085d-f488-4d91-bc62-f9d93888b4b6 | https://github.com/user-attachments/assets/5523779b-5b1d-40c8-9060-5753981640f7 |
 
+
+
+
+
+| 欄位1 | 欄位2 | 欄位3 |
+|-------|-------|-------|
+| A     | B     | C     |
+| D     | E     | F     |
+
+### substep_dt
+
+### grid_v_damping_scale
+
+### softening
 
 # Reference
 ```bibtex
