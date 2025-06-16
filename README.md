@@ -27,27 +27,57 @@ https://github.com/user-attachments/assets/7c0ff51a-1a56-4757-843e-948331c800bc
 ### sand
 https://github.com/user-attachments/assets/41e4085d-f488-4d91-bc62-f9d93888b4b6
 
-## Part 2: MPM Parameter Effet
-### n_grid
-| material\n_grid | 150(original) | 15 |
-|-------|-------|-------|
-| metal | https://github.com/user-attachments/assets/7c0ff51a-1a56-4757-843e-948331c800bc | https://github.com/user-attachments/assets/0df5b33d-dd26-43f6-8f2f-113c8a7dd0ca |
-| sand  | https://github.com/user-attachments/assets/41e4085d-f488-4d91-bc62-f9d93888b4b6 | https://github.com/user-attachments/assets/5523779b-5b1d-40c8-9060-5753981640f7 |
+## Part 2: MPM Parameter Effect
+### Metal Setting
+| Trial| n_grid | substep_dt |grid_v_damping_scale | softening |
+|:-------:|:-------:|:-------:|:-------:|:-------:|
+| Base | 150     | 10^(-4)     |0.9995      |0.1    |
+| 1    |**15**   | 10^(-4)     |0.9995      |0.1    |
+| 2    |150     | **10^(-3)**     |0.9995      |0.1    |
+| 3    |150     | 10^(-4)     |**0.8**      |0.1    |
+| 4-1    |150     | 10^(-4)     |0.9995      |**0**    |
+| 4-2    |150     | 10^(-4)     |0.9995      |**0.5**    |
+
+**Base**
+https://github.com/user-attachments/assets/7c0ff51a-1a56-4757-843e-948331c800bc
+**1**
+https://github.com/user-attachments/assets/acb9c88b-556f-48c2-8d0c-cb99d3fe2271
+**2**
+https://github.com/user-attachments/assets/d2b5dc1f-ec2e-47f3-8f5a-034d1100dea6
+**3**
+https://github.com/user-attachments/assets/04179fe8-dd1b-4210-b4de-e32ba0b6ea32
+**4-1**
+https://github.com/user-attachments/assets/f0aadd4a-0821-4c53-9870-379db8f2339c
+**4-2**
+https://github.com/user-attachments/assets/1ccb3c33-3ab3-4c5c-84d2-da1a69c5f15b
 
 
+### Sand Setting
+| Trial| n_grid | substep_dt |grid_v_damping_scale | softening |
+|:-------:|:-------:|:-------:|:-------:|:-------:|
+| Base | 150     | 10^(-4)     |0.9995      |0.1    |
+| 1    |**15**   | 10^(-4)     |0.9995      |0.1    |
+| 2-1    |150     | **10^(-3)**     |0.9995      |0.1    |
+| 2-2   |150     | **5 * 10^(-3)**     |0.9995      |0.1    |
+| 3    |150     | 10^(-4)     |**0.8**      |0.1    |
+| 4-1    |150     | 10^(-4)     |0.9995      |**0**    |
+| 4-2    |150     | 10^(-4)     |0.9995      |**0.00001**    |
 
 
-
-| 欄位1 | 欄位2 | 欄位3 |
-|-------|-------|-------|
-| A     | B     | C     |
-| D     | E     | F     |
-
-### substep_dt
-
-### grid_v_damping_scale
-
-### softening
+**Base**
+https://github.com/user-attachments/assets/41e4085d-f488-4d91-bc62-f9d93888b4b6
+**1**
+https://github.com/user-attachments/assets/2c37fcb1-5bb6-41b7-8a35-622560047d47
+**2-1**
+https://github.com/user-attachments/assets/8aaf3c75-5ab5-455c-a2e0-dae86b6ee040
+**2-2**
+https://github.com/user-attachments/assets/d6af7a97-cd19-40f6-8d2f-c44e36186dd5
+**3**
+https://github.com/user-attachments/assets/0cd567eb-58ad-4091-a4f4-0c847c45bb38
+**4-1**
+https://github.com/user-attachments/assets/bc0c397b-848d-4bf7-bddf-566ee34f6a34
+**4-2**
+https://github.com/user-attachments/assets/3228e8b7-aa67-44ac-986a-a042bf272d0a
 
 # Reference
 ```bibtex
