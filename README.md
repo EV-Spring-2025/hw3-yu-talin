@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/41e4085d-f488-4d91-bc62-f9d93888b4b6
 
 ## Part 2: MPM Parameter Effect
 ### YouTube Video Demo
-Link: https://youtu.be/r6X_222jAwU
+Link: https://youtu.be/MTRtcbhro4E
 
 ### Metal Setting
 | Trial| n_grid | substep_dt |grid_v_damping_scale | softening |
