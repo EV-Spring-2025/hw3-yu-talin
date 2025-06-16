@@ -21,8 +21,14 @@ Navigate to the "PhysGaussian" directory and follow the instructions under the "
 Follow the "Quick Start" section and execute the simulation scripts as instructed. Make sure to verify your outputs and understand the role of physics constraints in the generated dynamics.
 
 
-## Homework Instructions
-Please complete Part 1–2 as described in the [Google Slides](https://docs.google.com/presentation/d/13JcQC12pI8Wb9ZuaVV400HVZr9eUeZvf7gB7Le8FRV4/edit?usp=sharing).
+## Part 1: Selet any 2 materials
+### Metal
+https://github.com/user-attachments/assets/7c0ff51a-1a56-4757-843e-948331c800bc
+
+
+### sand
+https://github.com/user-attachments/assets/41e4085d-f488-4d91-bc62-f9d93888b4b6
+
 
 
 # Reference
