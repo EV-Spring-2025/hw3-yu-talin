@@ -33,9 +33,9 @@ Link: https://youtu.be/MTRtcbhro4E
 
 ### Insight
 - n_grid：降低 n_grid 時，撕裂效果明顯下降，甚至出現整體向右漂移的現象，推測是因為在粗網格解析度下，數值積分誤差隨時間累積所導致。推測PSNR在n_grid降低時也會明顯下降。
-- substep_dt：調整 substep_dt 影響不明顯。
+- substep_dt：調整 substep_dt 影響不明顯。推測PSNR不會差太多。
 - grid_v_damping_scale：當降低 grid_v_damping_scale 時，阻尼效果增強，使得粒子較不容易受到外力影響，因此會集中在中心位置。推測PSNR在 grid_v_damping_scale降低時也會明顯下降。
-- softening：調整 softening 影響不明顯
+- softening：調整 softening 影響不明顯（可能對這兩個材料來說受力較小，還在材料彈性區間）。推測PSNR不會差太多。
 （因為沒有記錄到PSNR目前只用推測的）
 
 ### Metal Setting
