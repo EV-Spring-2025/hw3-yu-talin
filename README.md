@@ -21,11 +21,19 @@ Navigate to the "PhysGaussian" directory and follow the instructions under the "
 Follow the "Quick Start" section and execute the simulation scripts as instructed. Make sure to verify your outputs and understand the role of physics constraints in the generated dynamics.
 
 
-## Part 1: 2 materials
+## Part 1: materials
+(覺得蠻有趣的就跑了各種材料，Part 2 主要用metal 和sand)
 ### Metal
 https://github.com/user-attachments/assets/7c0ff51a-1a56-4757-843e-948331c800bc
 ### sand
 https://github.com/user-attachments/assets/41e4085d-f488-4d91-bc62-f9d93888b4b6
+### foam
+https://github.com/user-attachments/assets/d1b118a1-680a-4855-8bcf-1e98acd47f68
+### jelly
+https://github.com/user-attachments/assets/99a25f33-6038-4a89-b3d8-5b71defc87f4
+### plasticine
+https://github.com/user-attachments/assets/9bd18586-f02a-43a9-ae92-93a79ee30d53
+
 
 ## Part 2: MPM Parameter Effect
 ### YouTube Video Demo
